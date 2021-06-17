@@ -84,9 +84,14 @@
     justify-content: space-evenly;
     align-items: center;
 }
-.nav-bar-social svg{
+.nav-bar-social a{
     height: 14%;
     width: 20%;
+    
+}
+.nav-bar-social svg{
+    height: 100%;
+    width: 100%;
     
 }
 .nav-bar-social svg:hover {
@@ -114,7 +119,7 @@ h2 {
 
 h2 span {
     color: var(--title-font-color);
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .home-container {
@@ -751,6 +756,9 @@ h2{
     display: flex;
     border: 1px solid var(--title-font-color);
     box-shadow: 2.5px 5px 9px var(--title-font-color);
+    align-items: center;
+    justify-content: center;
+    color: white;
 }
 .s-s-vertical{
     flex-direction: column;
