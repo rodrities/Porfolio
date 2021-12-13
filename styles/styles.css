@@ -6,7 +6,6 @@
 }
 
 * {
-    /*border: 0.5px solid red;*/
     margin: 0;
     padding: 0;
     font-family: 'Inconsolata', monospace;
@@ -25,17 +24,11 @@
     left: 0;
     top: 0;
 }
-#nav-bar *{
-    /*border: 0.5px solid salmon;*/
-}
 .nav-bar-logo {
     height: 30vh;
 }
-
 .nav-bar-logo img {
     display: block;
-    /*margin-left: 15px;
-    margin-top: 20px;*/
     margin: 10% auto;
 }
 .nav-bar-logo img:hover{
@@ -46,8 +39,6 @@
     height: 40vh;
     background: var(--container-color);
 }
-
-
 
 .nav-bar-sections ul {
     height: 100%;
@@ -62,9 +53,7 @@
     text-decoration: none;
     color: var(--title-font-color);
 }
-
 .sections-bar-container{
-    /*border: 0.5px solid blue;*/
     height: 15%;
     display: flex;
     align-items: center;
@@ -72,11 +61,8 @@
 }
 .sections-bar-container:hover{
     box-shadow: 5px 10px 18px var(--title-font-color);
-    /*border: 0.5px solid var(--title-font-color);*/
+
 }
-
-.nav-bar-sections-list li {}
-
 .nav-bar-social {
     height: 30vh;
     display: flex;
@@ -87,12 +73,10 @@
 .nav-bar-social a{
     height: 14%;
     width: 20%;
-    
 }
 .nav-bar-social svg{
     height: 100%;
     width: 100%;
-    
 }
 .nav-bar-social svg:hover {
     box-shadow: 2px 4px 7px var(--title-font-color);
@@ -111,12 +95,10 @@ body {
 h1 {
     color: var(--title-font-color);
 }
-
 h2 {
     color: white;
     font-size: 35px;
 }
-
 h2 span {
     color: var(--title-font-color);
     font-size: 30px;
@@ -126,21 +108,17 @@ h2 span {
     height: 100%;
     display: flex;
 }
-
 .home-text {
- 
     width: 45%;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 .home-text h2{
     color: var(--title-font-color);
     font-weight: 1000;
 }
-
 .home-text h1 {
     font-size: 70px;
     text-align: left;
@@ -148,7 +126,6 @@ h2 span {
     position: relative;
     width: max-content;
 }
-
 .name::before,
 .name::after{
     content: '';
@@ -221,12 +198,10 @@ h2 span {
     color: var(--title-font-color);
     
 }
-
 .home-hero {
     height: 100%;
     width: 60%;
 }
-
 #Laptop {
     height: 46%;
     width: 60%;
@@ -234,41 +209,28 @@ h2 span {
     top: 25%;
     left: 20%;
 }
-
 .hero-img-container {
     width: 100%;
     height: 80%;
     margin-top: 10%;
     position: relative;
     display: inline-block;
-    
 }
-
 .hero-img-container img {
     display: block;
     margin: auto;
     width: 75%;
     height: 90%;
     margin-top: 5%;
-    
 }
-
-
-
 .home-hero p {
     color: white;
 }
-
 
 /*--------------------AboutME----------------------------*/
 
 #About-me {
     height: 100vh;
-    
-}
-
-#About-me * {
-
 }
 .about-me-container {
     height: 100%;
@@ -276,19 +238,16 @@ h2 span {
     justify-content: center;
     align-items: center;
 }
-
 .mental-map-container {
     width: 80%;
     height: 90%;
     position: relative;
-    
 }
 .about-me-title {
     margin-left: 4.5%;
     margin-top: 4%;
     font-size: 45px;
     width: max-content;
-    
 }
 h2{
     font-size: 45px;
@@ -303,13 +262,11 @@ h2{
     justify-content: center;
     border-radius: 25%;
     overflow: hidden;
-  
 }
 .logo-element {
     width: 95%;
     height: 95%;
     overflow: hidden;
-    
     border-radius: 25%;
 }
 
@@ -356,13 +313,11 @@ h2{
     z-index: 100;
     width: 9%;
     height: 14.5%;
-    
 }
 
 .side-element svg {
     width: 100%;
     margin: auto;
-    
 }
 
 .element-1 {
@@ -392,47 +347,14 @@ h2{
     display: none;
 }
 .element-1-content{
-    /*border: 0.5px solid cyan;*/
     top: 20%;
     left: 5.5%;
 }
-/*.flag{
-    width: 42%;
-    height: 30%;
-    margin: 0 auto;
-    display: flex;
-    filter: url(#wavy);
-    position: relative;
-    border: 0.5px solid greenyellow;
-}
-.flag::before{
-    content: '';
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background-color: white;
-    border-left: 50px solid red;
-    box-sizing: border-box;
-    
-    filter: url(#wavy);
-}
-.flag-1{
-    width: 33%;
-    background-color: red;
-}
-.flag-2{
-    width: 34%;
-    background-color: white;
-}
-.filter-flag{
-    width: 0;
-    height: 0;
-}*/
+
 .element-content-text{
     margin: 40% auto 0;
     width: 80%;
     height: 60%;
-    
 }
 .element-2 {
     top: 70%;
@@ -448,7 +370,6 @@ h2{
     display: block;
 }
 .element-2-content {
-    
     top: 65%;
     left: 13.5%;
 }
@@ -491,7 +412,6 @@ h2{
     top: 60%;
     left: 73.7%;
 }
-
 .element-5 {
     top: 18%;
     left: 88%;
@@ -509,12 +429,10 @@ h2{
     top: 18%;
     left: 83.6%;
 }
-
 .element-6 {
     top: 0%;
     left: 60%;
 }
-
 .element-6:hover {
     transform:  scale(0.8) translateY(-10%);
 }
@@ -528,12 +446,10 @@ h2{
     top: 5%;
     left: 55.6%;
 }
-
 .line {
     position: absolute;
     z-index: 50;
 }
-
 .line-1 {
     width: 35%;
     height: 22%;
@@ -543,7 +459,6 @@ h2{
     top: 24%;
     left: 14.5%;
 }
-
 .line-2 {
     width: 25%;
     height: 26%;
@@ -553,14 +468,12 @@ h2{
     top: 49%;
     left: 22.5%;
 }
-
 .line-3 {
     height: 41%;
     border-left: solid white;
     top: 51%;
     left: 50%;
 }
-
 .line-4 {
     width: 30%;
     height: 22%;
@@ -570,7 +483,6 @@ h2{
     top: 52%;
     left: 52%;
 }
-
 .line-5 {
     width: 40.5%;
     height: 22%;
@@ -580,7 +492,6 @@ h2{
     top: 22%;
     left: 52%;
 }
-
 .line-6 {
     width: 12%;
     height: 35%;
@@ -595,9 +506,6 @@ h2{
 #My-skills {
     height: 100vh;
 }
-/*#My-skills * {
-    border: 0.5px solid blue;
-}*/
 .my-skills-container {
     margin: auto;
     padding-top: 10vh;
@@ -606,31 +514,25 @@ h2{
     margin: auto;
     position: relative;
 }
-
 .grid {
     display: flex;
     flex-direction: column;
 }
-
 .row {
     margin: auto;
     width: auto;
 }
-
 .row-2 {
     display: inline-flex;
     width: auto;
     margin: -8.8vh auto 0;
 }
-
 .row-2 .hexagon {
     margin-left: 5.5vw;
 }
-
 .row-2 .hexagon:nth-child(1) {
     margin-left: 0;
 }
-
 .row:nth-child(even) {
     margin-left: 1px;
 }
@@ -653,11 +555,7 @@ h2{
     color: var(--container-color);
     text-align: center;
 }
-/*.hexagon p{
-    font-size: 16px;
-}*/
-.hexagon:hover {
-    
+.hexagon:hover {  
     transition: 0s;
     background: var(--title-font-color);
     cursor: alias;
@@ -673,7 +571,6 @@ h2{
     color: white;
 }
 
-
 /*---------------------My Proyects -------------------------------------*/
 #My-projects2 {
     height: 100vh;
@@ -684,6 +581,7 @@ h2{
     padding-top: 10vh;
     width: 70vw;
     height: 80vh;
+    position: relative;
 }
 
 .grid-container2 {
@@ -707,12 +605,16 @@ h2{
 .grid-container2 .box1 {
     width: 66%;
     height: 32%;
+    position: absolute;
 }
+
 
 .grid-container2 .box2 {
     margin-left: 2%;
     width: 32%;
     height: 66%;
+    position: absolute;
+    left: 66%;
 }
 
 .grid-container2 .box4 {
@@ -800,6 +702,80 @@ h2{
     background-image: url(../assets/hhc1.png);
 }
 
+
+.button-details {
+    position: absolute;
+    z-index: 2;
+    width: 15%;
+    height: 15%;
+    border-radius: 15px;
+    left: 42.5%;
+    top: 42.5%;
+    background-color: var(--subtitle-color);
+    border: solid 1px var(--title-font-color);
+    color: var(--title-font-color);
+    font-size: 20px;
+    font-weight: bold;
+    visibility: hidden;
+}
+
+.proyect-details-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(39,48,44, 0.7);
+    top: 0;
+    left: 0;
+    z-index: 3;
+    visibility: hidden;
+}
+.proyect-details {
+    width: 60%;
+    height: 70%;
+    background-color: var(--container-color);
+    border: solid var(--title-font-color) 1px;
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    visibility: hidden;
+}
+
+.swiper-container:hover ~ .button-details {
+    visibility: visible;
+}
+.button-details:hover {
+    visibility: visible;
+}
+.exit-button {
+    position: absolute;
+    top: 3%;
+    left: 92%;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+.proyect-details h3{
+    color: var(--title-font-color);
+}
+.proyect-details p {
+    color: var(--subtitle-color);
+    padding: 0 15%;
+    text-align: center;
+}
+.proyect-details-button {
+    width: 12%;
+    height: 7%;
+    background-color: var(--title-font-color);
+    border: none;
+    color: var(--subtitle-color);
+    font-size: 20px;
+    border-radius: 25px;
+}
+
 /*-------------------------------Contact me---------------------------*/
 #Contact-me{
     height: 100vh;
@@ -819,7 +795,6 @@ h2{
     justify-content: space-evenly;
     align-items: center;
     color: white;
-    
     font-size: 20px;
 }
 .form-container button{
@@ -830,15 +805,10 @@ h2{
     border: none;
     border-radius: 25px;
     background-color: var(--title-font-color);
-    
-}
-.form-container p{
-    
 }
 .form-container p input{
     font-size: 20px;
 }
-
 .form-container p textarea {
     font-size: 20px;
     height: 80px;
@@ -847,10 +817,8 @@ h2{
     margin-top: 5%;
     height: 80%;
     width: 100%;
-    
     display: flex;
     background: var(--container-color);
-    
     box-shadow: 5px 10px 18px var(--title-font-color);
 }
 .avatar-image-container{
@@ -858,7 +826,6 @@ h2{
     display: flex;
     align-items: center;
     justify-content: center;
-   
 }
 .avatar-image-container img{
     margin: auto;
